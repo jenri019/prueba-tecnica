@@ -1,0 +1,26 @@
+.badge {
+    display: flex;
+    opacity: 0.2;
+    padding: 4px 16px;
+    border-radius: 10px;
+    margin-top: 0.25rem;
+    margin-right: 8px;
+    width: fit-content;
+}
+
+.active-badge {
+    opacity: 1;
+}
+
+.bg-yellow {
+    background-color: #eded05;
+    color: #000;
+}
+.bg-blue {
+    background-color: #3195ff;
+    color: #000;
+}
+.bg-green {
+    background-color: #00d128;
+    color: #000;
+}

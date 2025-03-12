@@ -1,0 +1,27 @@
+
+.card {
+    margin: 6px;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 2rem!important;
+}
+
+.card-body {
+    /**
+     * Habilita el modelo de caja flexible
+     * para que el contenido se ajuste al tamaño del contenedor
+     * y si excece el tamaño, se trunque y se muestre con puntos suspensivos
+     */
+    display: -webkit-box; /* Habilita el modelo de caja flexible */
+    -webkit-line-clamp: 5; /* Número máximo de líneas antes de truncar */
+    -webkit-box-orient: vertical; /* Orientación vertical */
+    overflow: hidden;
+    font-size: 1rem!important;
+    text-overflow: ellipsis;
+    height: 115px;
+    flex: 1;
+}
