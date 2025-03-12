@@ -33,6 +33,7 @@ Make sure you have the following tools installed:
 
 ### Follow the next steps to run the project in your local environment
 1. Clone repo in local directory: `git clone https://github.com/jenri019/prueba-tecnica.git`
+    Or downlod zip file from: `https://github.com/jenri019/prueba-tecnica`
 2. Navigate to the project directory: `cd your-app-route`
 3. Install the dependencies: `npm install`
 4. Run the server:
