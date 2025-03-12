@@ -39,14 +39,14 @@ Make sure you have the following tools installed:
 ### Main dependencies
 The project consists of the following folder structure
 
--- src             
--- -- assets : App resources such as images, icons, fonts, etc.
--- -- components : Components used on pages and templates if it's necessary
--- -- context : 
--- -- pages : Main pages of the app
--- -- providers : 
--- -- store : Global state of the application
--- -- --- slices : Reducers used in the store together with their actions
--- -- styles : Styles used in the app divided according to where they are used or their purpose
--- -- templates : Components used more globally than those in the components folder, such as header, footer, sidebar, etc.
--- -- utilities : Simple functions used in the app that return a result
+- | src             
+- | -- assets : App resources such as images, icons, fonts, etc.
+- | -- components : Components used on pages and templates if it's necessary
+- | -- context : 
+- | -- pages : Main pages of the app
+- | -- providers : 
+- | -- store : Global state of the application
+- | -- --- slices : Reducers used in the store together with their actions
+- | -- styles : Styles used in the app divided according to where they are used or their purpose
+- | -- templates : Components used more globally than those in the components folder, such as header, footer, sidebar, etc.
+- | -- utilities : Simple functions used in the app that return a result
