@@ -28,11 +28,14 @@ Make sure you have the following tools installed:
 -- Verify the installation by running: `node -v`
 - **npm**: Comes included with Node.js.
 -- Verify the installation by running: `npm -v`
+- **Git**:
+-- Verify the installation by running: `git -v`
 
 ### Follow the next steps to run the project in your local environment
-1. Navigate to the project directory: `cd your-app-route`
-2. Install the dependencies: `npm install`
-3. Run the server:
+1. Clone repo in local directory: `git clone https://github.com/jenri019/prueba-tecnica.git`
+2. Navigate to the project directory: `cd your-app-route`
+3. Install the dependencies: `npm install`
+4. Run the server:
     * `npm run dev`: Build and run the React application on a local development server.
     * `npm run dev -- --open`: Similar to npm run dev. Automatically opens the app in your default browser.
 
