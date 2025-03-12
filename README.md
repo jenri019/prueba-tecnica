@@ -33,7 +33,7 @@ Make sure you have the following tools installed:
 1. Navigate to the project directory: `cd your-app-route`
 2. Install the dependencies: `npm install`
 3. Run the server:
-    * `npm run dev`: Build and run the Angular application on a local development server.
+    * `npm run dev`: Build and run the React application on a local development server.
     * `npm run dev -- --open`: Similar to npm run dev. Automatically opens the app in your default browser.
 
 ### Folder structure
